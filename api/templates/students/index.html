@@ -1,0 +1,20 @@
+{% if students %}
+    <ul>
+    {% for student in students %}
+        <li>
+            <a href="{% url 'api:edit_student' student.id %}">
+                {{ student.user.last_name }}
+                {{ student.user.first_name }}
+                {{ student.group.number }}
+            </a>
+            <form action="/students/remove/" method="POST">
+                {% csrf_token %}
+                <input name="student_id" type="number" value="{{student.id}}" hidden />
+                <input type="submit" value="remove" />
+            </form>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No students are available.</p>
+{% endif %}
