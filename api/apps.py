@@ -1,10 +1,10 @@
-"""Конфигурация приложения Django 'api'."""
+"""Django api application configuration"""
 
 from django.apps import AppConfig
 
 
 class ApiConfig(AppConfig):
-    """Конфигурационный класс для приложения 'api'."""
+    """Configuration for api app"""
 
     default_auto_field = "django.db.models.BigAutoField"
     name = "api"

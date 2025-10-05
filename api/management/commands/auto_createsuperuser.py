@@ -1,6 +1,5 @@
 """
-Это команда, которая позволяет создавать суперпользователя автоматически
-при деплое проекта
+This command will create a new superuser with the given email and password.
 """
 
 from django.contrib.auth import get_user_model
@@ -10,12 +9,12 @@ User = get_user_model()
 
 
 class Command(BaseCommand):
-    """Реализация команды"""
+    """Command to create a new superuser with the given email and password."""
 
     help = "Create a superuser with predefined credentials"
 
     def add_arguments(self, parser):
-        """Получаем аргументы из командной строки"""
+        """Argument parser."""
         parser.add_argument(
             "--username", type=str, help="Username for the superuser"
         )
@@ -25,7 +24,7 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
-        """Создаём суперпользователя"""
+        """Command line handler."""
 
         username = options["username"]
         email = options["email"]

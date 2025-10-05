@@ -1,9 +1,4 @@
-"""
-Основные настройки для Django проекта "core".
-
-Документация: https://docs.djangoproject.com/en/5.2/topics/settings/
-Список настроек: https://docs.djangoproject.com/en/5.2/ref/settings/
-"""
+"""Django settings for core project."""
 
 from pathlib import Path
 
@@ -134,7 +129,7 @@ SPECTACULAR_SETTINGS = {
     },
 }
 
-LANGUAGE_CODE = "ru-ru"
+LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "Europe/Moscow"
 
