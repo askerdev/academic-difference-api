@@ -1,4 +1,4 @@
-"""Views for api models"""
+"""MVT API Views"""
 
 import json
 

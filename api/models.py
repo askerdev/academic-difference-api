@@ -4,6 +4,8 @@ from django.contrib.auth import get_user_model
 from django.db import models
 from django.db.models import JSONField
 
+from simple_history.models import HistoricalRecords
+
 User = get_user_model()
 
 
@@ -12,6 +14,7 @@ class Common(models.Model):
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    history = HistoricalRecords(inherit=True)
 
     class Meta:
         """Common model Meta class."""
@@ -106,7 +109,9 @@ class Teacher(Common):
 
     user = models.OneToOneField(User, on_delete=models.PROTECT)
 
-    subject = models.ManyToManyField(Subject, verbose_name="Teacher To Subject")
+    subjects = models.ManyToManyField(
+        Subject, verbose_name="Teacher To Subject"
+    )
 
     class Meta:
         """Teacher Meta class."""

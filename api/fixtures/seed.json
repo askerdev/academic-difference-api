@@ -1,0 +1,2163 @@
+[
+{
+    "model": "api.academicgroup",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-10-06T19:03:47.858Z",
+        "updated_at": "2025-10-06T19:15:01.055Z",
+        "number": "241-3210"
+    }
+},
+{
+    "model": "api.academicgroup",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-10-06T21:23:13.354Z",
+        "updated_at": "2025-10-06T21:23:13.354Z",
+        "number": "241-322"
+    }
+},
+{
+    "model": "api.department",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-10-06T19:04:20.714Z",
+        "updated_at": "2025-10-06T19:04:20.714Z",
+        "name": "Инфокогнитивные технологии"
+    }
+},
+{
+    "model": "api.subject",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-10-06T19:04:37.929Z",
+        "updated_at": "2025-10-06T19:04:37.929Z",
+        "name": "Основы веб-технологий",
+        "department": 1
+    }
+},
+{
+    "model": "api.subject",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-10-06T19:05:08.062Z",
+        "updated_at": "2025-10-06T19:05:08.062Z",
+        "name": "Основы программирования",
+        "department": 1
+    }
+},
+{
+    "model": "api.subject",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-10-06T19:05:17.906Z",
+        "updated_at": "2025-10-06T19:05:17.906Z",
+        "name": "Основы проектирования баз данных",
+        "department": 1
+    }
+},
+{
+    "model": "api.subject",
+    "pk": 4,
+    "fields": {
+        "created_at": "2025-10-06T19:05:27.437Z",
+        "updated_at": "2025-10-06T19:05:27.437Z",
+        "name": "Основы сетевых технологий",
+        "department": 1
+    }
+},
+{
+    "model": "api.subject",
+    "pk": 5,
+    "fields": {
+        "created_at": "2025-10-06T19:05:34.410Z",
+        "updated_at": "2025-10-06T19:05:34.410Z",
+        "name": "Цифровой дизайн",
+        "department": 1
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-10-06T19:06:34.173Z",
+        "updated_at": "2025-10-06T19:14:00.011Z",
+        "student": 1,
+        "subject": 1,
+        "deadline": "2025-10-31",
+        "is_closed": true
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-10-06T19:06:48.861Z",
+        "updated_at": "2025-10-06T21:13:54.850Z",
+        "student": 1,
+        "subject": 2,
+        "deadline": "2025-10-31",
+        "is_closed": true
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-10-06T19:06:55.781Z",
+        "updated_at": "2025-10-06T19:06:55.781Z",
+        "student": 1,
+        "subject": 3,
+        "deadline": "2025-10-31",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 4,
+    "fields": {
+        "created_at": "2025-10-06T19:07:03.712Z",
+        "updated_at": "2025-10-06T19:07:03.712Z",
+        "student": 1,
+        "subject": 4,
+        "deadline": "2025-10-31",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 5,
+    "fields": {
+        "created_at": "2025-10-06T19:07:10.933Z",
+        "updated_at": "2025-10-06T19:07:10.933Z",
+        "student": 1,
+        "subject": 5,
+        "deadline": "2025-10-31",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 6,
+    "fields": {
+        "created_at": "2025-10-06T19:07:22.294Z",
+        "updated_at": "2025-10-06T19:07:22.294Z",
+        "student": 2,
+        "subject": 1,
+        "deadline": "2025-10-31",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 7,
+    "fields": {
+        "created_at": "2025-10-06T19:07:29.789Z",
+        "updated_at": "2025-10-06T19:14:00.007Z",
+        "student": 2,
+        "subject": 2,
+        "deadline": "2025-10-31",
+        "is_closed": true
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 8,
+    "fields": {
+        "created_at": "2025-10-06T19:07:37.117Z",
+        "updated_at": "2025-10-06T19:07:37.117Z",
+        "student": 2,
+        "subject": 3,
+        "deadline": "2025-10-31",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 9,
+    "fields": {
+        "created_at": "2025-10-06T19:07:45.612Z",
+        "updated_at": "2025-10-06T19:07:45.612Z",
+        "student": 2,
+        "subject": 4,
+        "deadline": "2025-10-31",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 10,
+    "fields": {
+        "created_at": "2025-10-06T19:08:08.269Z",
+        "updated_at": "2025-10-06T19:08:08.269Z",
+        "student": 2,
+        "subject": 5,
+        "deadline": "2025-10-31",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 11,
+    "fields": {
+        "created_at": "2025-10-06T19:15:13.926Z",
+        "updated_at": "2025-10-06T19:15:13.926Z",
+        "student": 3,
+        "subject": 1,
+        "deadline": "2025-11-30",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 12,
+    "fields": {
+        "created_at": "2025-10-06T19:15:23.053Z",
+        "updated_at": "2025-10-06T19:15:23.053Z",
+        "student": 3,
+        "subject": 2,
+        "deadline": "2025-11-30",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 13,
+    "fields": {
+        "created_at": "2025-10-06T19:15:30.873Z",
+        "updated_at": "2025-10-06T19:15:30.873Z",
+        "student": 3,
+        "subject": 3,
+        "deadline": "2025-11-30",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 14,
+    "fields": {
+        "created_at": "2025-10-06T19:15:40.823Z",
+        "updated_at": "2025-10-06T19:15:40.823Z",
+        "student": 3,
+        "subject": 4,
+        "deadline": "2025-11-30",
+        "is_closed": false
+    }
+},
+{
+    "model": "api.academicdifference",
+    "pk": 15,
+    "fields": {
+        "created_at": "2025-10-06T19:15:50.709Z",
+        "updated_at": "2025-10-06T19:15:50.709Z",
+        "student": 3,
+        "subject": 5,
+        "deadline": "2025-11-30",
+        "is_closed": false
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$npGfUzWhA6O4NgECRi2nVO$99sfZek/SSNri3kifZ01meGBn+0rT95TnfjXOFq5mTM=",
+        "last_login": "2025-10-06T21:27:40.592Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "root@admin.ru",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-10-06T18:57:39.245Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$NVW1iNZpcyaWbV7itE9k3k$H3iKLDmymNsXHM4757qHwYEyjcPYoVwmCBUWUYpq7dA=",
+        "last_login": "2025-10-06T21:48:46.734Z",
+        "is_superuser": false,
+        "username": "khuzhokov",
+        "first_name": "Аскер",
+        "last_name": "Хужоков",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-06T19:00:22Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$EhdqCJpThmSC286qpxykVF$X1lS1hL56SlKdqcqaMUL6LOUjW0aL1xcy8uC/tDCHQA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "balynin",
+        "first_name": "Егор",
+        "last_name": "Балынин",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-06T19:01:00Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$iDYrcWT1DJSy4iTkMnZT18$tWXv9FwlvVVFVBFU+zw83Xgp4G+VwIMMTsixtFT340E=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "pletnev",
+        "first_name": "Егор",
+        "last_name": "Плетнёв",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-06T19:14:34Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$vCgfe3YLAJ8gjEdAfDaF1U$Rg62UL4/VNLiSeR2t59LiFOSGoOivd/BSbAYRyFp4Rg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "krasnikova",
+        "first_name": "Ирина",
+        "last_name": "Красникова",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-06T19:38:57Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$VIuOuw4wRScszcRNGKCpaT$5AW20/D2ac1k+TnqWrQJUGlSc/q+tSbvWmi2cd30HxI=",
+        "last_login": "2025-10-06T21:44:24.150Z",
+        "is_superuser": false,
+        "username": "maksimov",
+        "first_name": "Павел",
+        "last_name": "Максимов",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-06T19:39:20Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$A2z2KYnyDM2XnNE3SsSbed$lZ5iTULlJZ8kXSF14cM1bc07+ZkONMLhzCzJwfehlaE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "pukhova",
+        "first_name": "Екатерина",
+        "last_name": "Пухова",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-06T19:39:46Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$5540ZVJmu5Q11DrzdVLVlL$L+4YAaCX8DyquACwLwna6OA4yjQngdorSC2hBSEApjQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "gnibeda",
+        "first_name": "Артём",
+        "last_name": "Гнибеда",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-06T19:40:15Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mai9o8lgtf41dfnivw2gpq9iiwdbt2qy",
+    "fields": {
+        "session_data": ".eJxVjE0OwiAYBe_C2hCgAsWle89Avh-QqoGktCvj3W2TLnT7Zua9RYR1KXHtaY4Ti4sw4vS7IdAz1R3wA-q9SWp1mSeUuyIP2uWtcXpdD_fvoEAvW23BWYbBjx4zQkbH4AmMRnY5MGvIhonCoM5-RM_Zaw4qk9GJ1Iat-HwBIzc5eQ:1v5t4Y:TP108_BjAskxvHfs0HRggACHjzsDpNgfcH6iYx_OVJY",
+        "expire_date": "2025-10-20T21:48:46.737Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "sd5pbi7b3dib8gjmqxf4nl3msi52yb2a",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyGAuKJH7_0GwrK7UjU0Ke3J-O_SpAc9zGXem3mrmNalxLXxHEdSV2XV4bfDlJ9cN0CPVO-TzlNd5hH1puidNj1MxK_b7v4dlNRKX3sHgMF7wcAXI9Z4CnRyIImdOR8DGyce2HowPUyCnAWw60EMcVCfL9ZWOD8:1v5qR2:Ytj5OcHqRAr8kcWZZYWIK6CKgpxh_s1VgU7Nbbq72J4",
+        "expire_date": "2025-10-20T18:59:48.540Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-10-06T19:00:22.719Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicalstudent"
+        ],
+        "object_id": "2",
+        "object_repr": "khuzhokov",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-10-06T19:00:36.591Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicalstudent"
+        ],
+        "object_id": "2",
+        "object_repr": "khuzhokov",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-10-06T19:01:00.338Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicalstudent"
+        ],
+        "object_id": "3",
+        "object_repr": "balynin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-10-06T19:01:07.714Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicaldepartment"
+        ],
+        "object_id": "1",
+        "object_repr": "241-322",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-10-06T19:01:13.481Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicaldepartment"
+        ],
+        "object_id": "2",
+        "object_repr": "241-321",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-10-06T19:02:40.120Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicaldepartment"
+        ],
+        "object_id": "2",
+        "object_repr": "241-321",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-10-06T19:02:42.873Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicaldepartment"
+        ],
+        "object_id": "1",
+        "object_repr": "241-322",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-10-06T19:02:46.967Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicaldepartment"
+        ],
+        "object_id": "3",
+        "object_repr": "241-3210",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-10-06T19:03:17.156Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicaldepartment"
+        ],
+        "object_id": "3",
+        "object_repr": "241-3210",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-10-06T19:03:47.864Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicgroup"
+        ],
+        "object_id": "1",
+        "object_repr": "241-3210",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"student\", \"object\": \"\\u0425\\u0443\\u0436\\u043e\\u043a\\u043e\\u0432 \\u0410\\u0441\\u043a\\u0435\\u0440 241-3210\"}}, {\"added\": {\"name\": \"student\", \"object\": \"  241-3210\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-10-06T19:04:20.716Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "department"
+        ],
+        "object_id": "1",
+        "object_repr": "Инфокогнитивные технологии",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-10-06T19:04:37.931Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "subject"
+        ],
+        "object_id": "1",
+        "object_repr": "Основы веб-технологий",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-10-06T19:05:08.064Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "subject"
+        ],
+        "object_id": "2",
+        "object_repr": "Основы программирования",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-10-06T19:05:17.908Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "subject"
+        ],
+        "object_id": "3",
+        "object_repr": "Основы проектирования баз данных",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-10-06T19:05:27.439Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "subject"
+        ],
+        "object_id": "4",
+        "object_repr": "Основы сетевых технологий",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-10-06T19:05:34.412Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "subject"
+        ],
+        "object_id": "5",
+        "object_repr": "Цифровой дизайн",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-10-06T19:05:59.142Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicalstudent"
+        ],
+        "object_id": "3",
+        "object_repr": "balynin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-10-06T19:06:34.177Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "1",
+        "object_repr": "AcademicDifference object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-10-06T19:06:48.863Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "2",
+        "object_repr": "AcademicDifference object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-10-06T19:06:55.785Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "3",
+        "object_repr": "AcademicDifference object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-10-06T19:07:03.715Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "4",
+        "object_repr": "AcademicDifference object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-10-06T19:07:10.936Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "5",
+        "object_repr": "AcademicDifference object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-10-06T19:07:22.297Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "6",
+        "object_repr": "AcademicDifference object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2025-10-06T19:07:29.792Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "7",
+        "object_repr": "AcademicDifference object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-10-06T19:07:37.120Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "8",
+        "object_repr": "AcademicDifference object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-10-06T19:07:45.615Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "9",
+        "object_repr": "AcademicDifference object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-10-06T19:08:08.271Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "10",
+        "object_repr": "AcademicDifference object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-10-06T19:08:30.463Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "1",
+        "object_repr": "AcademicDifference object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Deadline\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2025-10-06T19:13:42.563Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "1",
+        "object_repr": "AcademicDifference object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2025-10-06T19:14:00.010Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "7",
+        "object_repr": "AcademicDifference object (7)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2025-10-06T19:14:00.012Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "1",
+        "object_repr": "AcademicDifference object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2025-10-06T19:14:34.476Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicalstudent"
+        ],
+        "object_id": "4",
+        "object_repr": "pletnev",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2025-10-06T19:14:43.126Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "historicalstudent"
+        ],
+        "object_id": "4",
+        "object_repr": "pletnev",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2025-10-06T19:15:01.059Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicgroup"
+        ],
+        "object_id": "1",
+        "object_repr": "241-3210",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"student\", \"object\": \"\\u041f\\u043b\\u0435\\u0442\\u043d\\u0451\\u0432 \\u0415\\u0433\\u043e\\u0440 241-3210\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2025-10-06T19:15:13.928Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "11",
+        "object_repr": "AcademicDifference object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-10-06T19:15:23.056Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "12",
+        "object_repr": "AcademicDifference object (12)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-10-06T19:15:30.877Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "13",
+        "object_repr": "AcademicDifference object (13)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-10-06T19:15:40.825Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "14",
+        "object_repr": "AcademicDifference object (14)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2025-10-06T19:15:50.712Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicdifference"
+        ],
+        "object_id": "15",
+        "object_repr": "AcademicDifference object (15)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2025-10-06T19:38:57.799Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "krasnikova",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2025-10-06T19:39:06.068Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "krasnikova",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2025-10-06T19:39:20.841Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "maksimov",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2025-10-06T19:39:31.061Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "maksimov",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2025-10-06T19:39:46.409Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "pukhova",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2025-10-06T19:39:55.890Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "pukhova",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2025-10-06T19:40:15.988Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "gnibeda",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2025-10-06T19:40:49.621Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "gnibeda",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2025-10-06T19:41:05.365Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "teacher"
+        ],
+        "object_id": "1",
+        "object_repr": "Гнибеда Артём",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2025-10-06T19:41:16.501Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "teacher"
+        ],
+        "object_id": "2",
+        "object_repr": "Красникова Ирина",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2025-10-06T19:41:23.846Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "teacher"
+        ],
+        "object_id": "3",
+        "object_repr": "Максимов Павел",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2025-10-06T19:41:34.051Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "teacher"
+        ],
+        "object_id": "4",
+        "object_repr": "Пухова Екатерина",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2025-10-06T21:23:13.356Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "academicgroup"
+        ],
+        "object_id": "2",
+        "object_repr": "241-322",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2025-10-06T21:24:21.834Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "api",
+            "student"
+        ],
+        "object_id": "3",
+        "object_repr": "Плетнёв Егор 241-322",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Related group\"]}}]"
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 1,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:06:34.173Z",
+        "updated_at": "2025-10-06T19:06:34.173Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 1,
+        "subject": 1,
+        "history_date": "2025-10-06T19:06:34.174Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 2,
+    "fields": {
+        "id": 2,
+        "created_at": "2025-10-06T19:06:48.861Z",
+        "updated_at": "2025-10-06T19:06:48.861Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 1,
+        "subject": 2,
+        "history_date": "2025-10-06T19:06:48.861Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 3,
+    "fields": {
+        "id": 3,
+        "created_at": "2025-10-06T19:06:55.781Z",
+        "updated_at": "2025-10-06T19:06:55.781Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 1,
+        "subject": 3,
+        "history_date": "2025-10-06T19:06:55.783Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 4,
+    "fields": {
+        "id": 4,
+        "created_at": "2025-10-06T19:07:03.712Z",
+        "updated_at": "2025-10-06T19:07:03.712Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 1,
+        "subject": 4,
+        "history_date": "2025-10-06T19:07:03.713Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 5,
+    "fields": {
+        "id": 5,
+        "created_at": "2025-10-06T19:07:10.933Z",
+        "updated_at": "2025-10-06T19:07:10.933Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 1,
+        "subject": 5,
+        "history_date": "2025-10-06T19:07:10.934Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 6,
+    "fields": {
+        "id": 6,
+        "created_at": "2025-10-06T19:07:22.294Z",
+        "updated_at": "2025-10-06T19:07:22.294Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 2,
+        "subject": 1,
+        "history_date": "2025-10-06T19:07:22.295Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 7,
+    "fields": {
+        "id": 7,
+        "created_at": "2025-10-06T19:07:29.789Z",
+        "updated_at": "2025-10-06T19:07:29.789Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 2,
+        "subject": 2,
+        "history_date": "2025-10-06T19:07:29.790Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 8,
+    "fields": {
+        "id": 8,
+        "created_at": "2025-10-06T19:07:37.117Z",
+        "updated_at": "2025-10-06T19:07:37.117Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 2,
+        "subject": 3,
+        "history_date": "2025-10-06T19:07:37.118Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 9,
+    "fields": {
+        "id": 9,
+        "created_at": "2025-10-06T19:07:45.612Z",
+        "updated_at": "2025-10-06T19:07:45.612Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 2,
+        "subject": 4,
+        "history_date": "2025-10-06T19:07:45.613Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 10,
+    "fields": {
+        "id": 10,
+        "created_at": "2025-10-06T19:08:08.269Z",
+        "updated_at": "2025-10-06T19:08:08.269Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 2,
+        "subject": 5,
+        "history_date": "2025-10-06T19:08:08.270Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 11,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:06:34.173Z",
+        "updated_at": "2025-10-06T19:08:30.461Z",
+        "deadline": "2025-10-30",
+        "is_closed": false,
+        "student": 1,
+        "subject": 1,
+        "history_date": "2025-10-06T19:08:30.461Z",
+        "history_change_reason": null,
+        "history_type": "~",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 12,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:06:34.173Z",
+        "updated_at": "2025-10-06T19:13:42.560Z",
+        "deadline": "2025-10-31",
+        "is_closed": false,
+        "student": 1,
+        "subject": 1,
+        "history_date": "2025-10-06T19:13:42.562Z",
+        "history_change_reason": null,
+        "history_type": "~",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 13,
+    "fields": {
+        "id": 7,
+        "created_at": "2025-10-06T19:07:29.789Z",
+        "updated_at": "2025-10-06T19:14:00.007Z",
+        "deadline": "2025-10-31",
+        "is_closed": true,
+        "student": 2,
+        "subject": 2,
+        "history_date": "2025-10-06T19:14:00.008Z",
+        "history_change_reason": null,
+        "history_type": "~",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 14,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:06:34.173Z",
+        "updated_at": "2025-10-06T19:14:00.011Z",
+        "deadline": "2025-10-31",
+        "is_closed": true,
+        "student": 1,
+        "subject": 1,
+        "history_date": "2025-10-06T19:14:00.011Z",
+        "history_change_reason": null,
+        "history_type": "~",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 15,
+    "fields": {
+        "id": 11,
+        "created_at": "2025-10-06T19:15:13.926Z",
+        "updated_at": "2025-10-06T19:15:13.926Z",
+        "deadline": "2025-11-30",
+        "is_closed": false,
+        "student": 3,
+        "subject": 1,
+        "history_date": "2025-10-06T19:15:13.927Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 16,
+    "fields": {
+        "id": 12,
+        "created_at": "2025-10-06T19:15:23.053Z",
+        "updated_at": "2025-10-06T19:15:23.053Z",
+        "deadline": "2025-11-30",
+        "is_closed": false,
+        "student": 3,
+        "subject": 2,
+        "history_date": "2025-10-06T19:15:23.054Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 17,
+    "fields": {
+        "id": 13,
+        "created_at": "2025-10-06T19:15:30.873Z",
+        "updated_at": "2025-10-06T19:15:30.873Z",
+        "deadline": "2025-11-30",
+        "is_closed": false,
+        "student": 3,
+        "subject": 3,
+        "history_date": "2025-10-06T19:15:30.875Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 18,
+    "fields": {
+        "id": 14,
+        "created_at": "2025-10-06T19:15:40.823Z",
+        "updated_at": "2025-10-06T19:15:40.823Z",
+        "deadline": "2025-11-30",
+        "is_closed": false,
+        "student": 3,
+        "subject": 4,
+        "history_date": "2025-10-06T19:15:40.824Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 19,
+    "fields": {
+        "id": 15,
+        "created_at": "2025-10-06T19:15:50.709Z",
+        "updated_at": "2025-10-06T19:15:50.709Z",
+        "deadline": "2025-11-30",
+        "is_closed": false,
+        "student": 3,
+        "subject": 5,
+        "history_date": "2025-10-06T19:15:50.710Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicdifference",
+    "pk": 20,
+    "fields": {
+        "id": 2,
+        "created_at": "2025-10-06T19:06:48.861Z",
+        "updated_at": "2025-10-06T21:13:54.850Z",
+        "deadline": "2025-10-31",
+        "is_closed": true,
+        "student": 1,
+        "subject": 2,
+        "history_date": "2025-10-06T21:13:54.852Z",
+        "history_change_reason": null,
+        "history_type": "~",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.teacher",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-10-06T19:41:05.360Z",
+        "updated_at": "2025-10-06T19:41:05.360Z",
+        "user": [
+            "gnibeda"
+        ],
+        "subjects": [
+            1
+        ]
+    }
+},
+{
+    "model": "api.teacher",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-10-06T19:41:16.497Z",
+        "updated_at": "2025-10-06T19:41:16.497Z",
+        "user": [
+            "krasnikova"
+        ],
+        "subjects": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "api.teacher",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-10-06T19:41:23.843Z",
+        "updated_at": "2025-10-06T19:41:23.843Z",
+        "user": [
+            "maksimov"
+        ],
+        "subjects": [
+            4
+        ]
+    }
+},
+{
+    "model": "api.teacher",
+    "pk": 4,
+    "fields": {
+        "created_at": "2025-10-06T19:41:34.047Z",
+        "updated_at": "2025-10-06T19:41:34.047Z",
+        "user": [
+            "pukhova"
+        ],
+        "subjects": [
+            5
+        ]
+    }
+},
+{
+    "model": "api.historicalteacher",
+    "pk": 1,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:41:05.360Z",
+        "updated_at": "2025-10-06T19:41:05.360Z",
+        "user": [
+            "gnibeda"
+        ],
+        "history_date": "2025-10-06T19:41:05.361Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalteacher",
+    "pk": 2,
+    "fields": {
+        "id": 2,
+        "created_at": "2025-10-06T19:41:16.497Z",
+        "updated_at": "2025-10-06T19:41:16.497Z",
+        "user": [
+            "krasnikova"
+        ],
+        "history_date": "2025-10-06T19:41:16.497Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalteacher",
+    "pk": 3,
+    "fields": {
+        "id": 3,
+        "created_at": "2025-10-06T19:41:23.843Z",
+        "updated_at": "2025-10-06T19:41:23.843Z",
+        "user": [
+            "maksimov"
+        ],
+        "history_date": "2025-10-06T19:41:23.843Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalteacher",
+    "pk": 4,
+    "fields": {
+        "id": 4,
+        "created_at": "2025-10-06T19:41:34.047Z",
+        "updated_at": "2025-10-06T19:41:34.047Z",
+        "user": [
+            "pukhova"
+        ],
+        "history_date": "2025-10-06T19:41:34.048Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalsubject",
+    "pk": 1,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:04:37.929Z",
+        "updated_at": "2025-10-06T19:04:37.929Z",
+        "name": "Основы веб-технологий",
+        "department": 1,
+        "history_date": "2025-10-06T19:04:37.930Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalsubject",
+    "pk": 2,
+    "fields": {
+        "id": 2,
+        "created_at": "2025-10-06T19:05:08.062Z",
+        "updated_at": "2025-10-06T19:05:08.062Z",
+        "name": "Основы программирования",
+        "department": 1,
+        "history_date": "2025-10-06T19:05:08.063Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalsubject",
+    "pk": 3,
+    "fields": {
+        "id": 3,
+        "created_at": "2025-10-06T19:05:17.906Z",
+        "updated_at": "2025-10-06T19:05:17.906Z",
+        "name": "Основы проектирования баз данных",
+        "department": 1,
+        "history_date": "2025-10-06T19:05:17.907Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalsubject",
+    "pk": 4,
+    "fields": {
+        "id": 4,
+        "created_at": "2025-10-06T19:05:27.437Z",
+        "updated_at": "2025-10-06T19:05:27.437Z",
+        "name": "Основы сетевых технологий",
+        "department": 1,
+        "history_date": "2025-10-06T19:05:27.437Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalsubject",
+    "pk": 5,
+    "fields": {
+        "id": 5,
+        "created_at": "2025-10-06T19:05:34.410Z",
+        "updated_at": "2025-10-06T19:05:34.410Z",
+        "name": "Цифровой дизайн",
+        "department": 1,
+        "history_date": "2025-10-06T19:05:34.411Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicaldepartment",
+    "pk": 1,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:04:20.714Z",
+        "updated_at": "2025-10-06T19:04:20.714Z",
+        "name": "Инфокогнитивные технологии",
+        "history_date": "2025-10-06T19:04:20.715Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.student",
+    "pk": 1,
+    "fields": {
+        "created_at": "2025-10-06T19:03:47.861Z",
+        "updated_at": "2025-10-06T19:03:47.861Z",
+        "user": [
+            "khuzhokov"
+        ],
+        "group": 1,
+        "telegram_id": 123123,
+        "settings": {
+            "notifications": true
+        }
+    }
+},
+{
+    "model": "api.student",
+    "pk": 2,
+    "fields": {
+        "created_at": "2025-10-06T19:03:47.863Z",
+        "updated_at": "2025-10-06T19:03:47.863Z",
+        "user": [
+            "balynin"
+        ],
+        "group": 1,
+        "telegram_id": 123122,
+        "settings": {
+            "notifications": false
+        }
+    }
+},
+{
+    "model": "api.student",
+    "pk": 3,
+    "fields": {
+        "created_at": "2025-10-06T19:15:01.057Z",
+        "updated_at": "2025-10-06T21:24:21.831Z",
+        "user": [
+            "pletnev"
+        ],
+        "group": 2,
+        "telegram_id": 123121,
+        "settings": {
+            "notifications": false
+        }
+    }
+},
+{
+    "model": "api.historicalstudent",
+    "pk": 1,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:03:47.861Z",
+        "updated_at": "2025-10-06T19:03:47.861Z",
+        "telegram_id": 123123,
+        "settings": {
+            "notifications": true
+        },
+        "user": [
+            "khuzhokov"
+        ],
+        "group": 1,
+        "history_date": "2025-10-06T19:03:47.862Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalstudent",
+    "pk": 2,
+    "fields": {
+        "id": 2,
+        "created_at": "2025-10-06T19:03:47.863Z",
+        "updated_at": "2025-10-06T19:03:47.863Z",
+        "telegram_id": 123122,
+        "settings": {
+            "notifications": false
+        },
+        "user": [
+            "balynin"
+        ],
+        "group": 1,
+        "history_date": "2025-10-06T19:03:47.864Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalstudent",
+    "pk": 3,
+    "fields": {
+        "id": 3,
+        "created_at": "2025-10-06T19:15:01.057Z",
+        "updated_at": "2025-10-06T19:15:01.057Z",
+        "telegram_id": 123121,
+        "settings": {
+            "notifications": false
+        },
+        "user": [
+            "pletnev"
+        ],
+        "group": 1,
+        "history_date": "2025-10-06T19:15:01.058Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalstudent",
+    "pk": 4,
+    "fields": {
+        "id": 3,
+        "created_at": "2025-10-06T19:15:01.057Z",
+        "updated_at": "2025-10-06T21:24:21.831Z",
+        "telegram_id": 123121,
+        "settings": {
+            "notifications": false
+        },
+        "user": [
+            "pletnev"
+        ],
+        "group": 2,
+        "history_date": "2025-10-06T21:24:21.832Z",
+        "history_change_reason": null,
+        "history_type": "~",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicgroup",
+    "pk": 1,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:03:47.858Z",
+        "updated_at": "2025-10-06T19:03:47.858Z",
+        "number": "241-3210",
+        "history_date": "2025-10-06T19:03:47.859Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicgroup",
+    "pk": 2,
+    "fields": {
+        "id": 1,
+        "created_at": "2025-10-06T19:03:47.858Z",
+        "updated_at": "2025-10-06T19:15:01.055Z",
+        "number": "241-3210",
+        "history_date": "2025-10-06T19:15:01.056Z",
+        "history_change_reason": null,
+        "history_type": "~",
+        "history_user": [
+            "root"
+        ]
+    }
+},
+{
+    "model": "api.historicalacademicgroup",
+    "pk": 3,
+    "fields": {
+        "id": 2,
+        "created_at": "2025-10-06T21:23:13.354Z",
+        "updated_at": "2025-10-06T21:23:13.354Z",
+        "number": "241-322",
+        "history_date": "2025-10-06T21:23:13.355Z",
+        "history_change_reason": null,
+        "history_type": "+",
+        "history_user": [
+            "root"
+        ]
+    }
+}
+]
