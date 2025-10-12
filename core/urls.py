@@ -13,6 +13,8 @@ from drf_spectacular.views import (
 )
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+from api.views import mvt
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/v1/", include("api.urls")),
@@ -37,5 +39,26 @@ urlpatterns = [
         "api/v1/schema/redoc/",
         SpectacularRedocView.as_view(url_name="schema"),
         name="redoc",
+    ),
+    # model view template
+    path(
+        "students/create/",
+        mvt.create_student,
+        name="create_student",
+    ),
+    path(
+        "students/",
+        mvt.list_students,
+        name="list_students",
+    ),
+    path(
+        "students/remove/",
+        mvt.remove_student,
+        name="remove_student",
+    ),
+    path(
+        "students/<int:student_id>/",
+        mvt.edit_student,
+        name="edit_student",
     ),
 ]

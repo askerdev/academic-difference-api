@@ -2,7 +2,7 @@
     <ul>
     {% for student in students %}
         <li>
-            <a href="{% url 'api:edit_student' student.id %}">
+            <a href="{% url 'edit_student' student.id %}">
                 {{ student.user.last_name }}
                 {{ student.user.first_name }}
                 {{ student.group.number }}
